@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main (){
+    int length;
+    float width;
+    float area;
+   
+    
+    width = 3.99;
+    length = 5;
+    
+    area =  length * width * width;
+    
+    cout<< area;
+    
+    return 0;
+    
+    //written by Tabish Aziz
+} 
