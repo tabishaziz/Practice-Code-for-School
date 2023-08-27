@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main (){
+    int radius;
+    float pi;
+    float vol;
+    float cons;
+    
+    pi = 3.1415;
+    radius = 7;
+    cons = 4/3;
+    
+    vol = cons * pi * radius * radius * radius;
+    
+    cout<< vol;
+    
+    return 0;
+    
+    //written by Tabish Aziz
+} 
