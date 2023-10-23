@@ -1,0 +1,23 @@
+//This is a party invitation program where the host will assess each aspirant and his eligibility to be a part of the party.
+//Written by Tabish Aziz
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    
+    int age;
+    cout<<"Please enter your age :";
+    cin>>age;
+    
+    if(age < 18){
+        cout<<" You are not allowed to the party";
+    }
+    else if(age == 18){
+    cout<<"You will get basic pass";}
+    
+    else{
+        cout<<"You are allowed to the party";
+    }
+    return 0;
+}
